@@ -1,0 +1,838 @@
+@font-face {
+  font-family: "nassim";
+  src: url("../font/nassim.eot");
+  src: url("../font/nassim.woff") format("woff");
+  src: url("../font/nassim.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: nassim;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
+}
+
+.tiny {
+  font-size: 60%;
+}
+
+.huge {
+  font-size: 80%;
+}
+
+.large {
+  font-size: 120%;
+}
+
+.huge {
+  font-size: 140%;
+}
+
+.icon {
+  margin: 4px;
+}
+
+@font-face {
+  font-family: 'icon';
+  src: url('../font/icon.eot?v101');
+  src: url('../font/icon.eot?v101#iefix') format('embedded-opentype'), url('../font/icon.ttf?v101') format('truetype'), url('../font/icon.woff?v101') format('woff'), url('../font/icon.svg?v101#icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ic-"],
+[class*=" ic-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-home:before {
+  content: "\e900";
+}
+
+.ic-home3:before {
+  content: "\e902";
+}
+
+.ic-newspaper:before {
+  content: "\e904";
+}
+
+.ic-pencil2:before {
+  content: "\e906";
+}
+
+.ic-eyedropper:before {
+  content: "\e90a";
+}
+
+.ic-droplet:before {
+  content: "\e90b";
+}
+
+.ic-paint-format:before {
+  content: "\e90c";
+}
+
+.ic-image:before {
+  content: "\e90d";
+}
+
+.ic-images:before {
+  content: "\e90e";
+}
+
+.ic-camera:before {
+  content: "\e90f";
+}
+
+.ic-music:before {
+  content: "\e911";
+}
+
+.ic-video-camera:before {
+  content: "\e914";
+}
+
+.ic-bullhorn:before {
+  content: "\e91a";
+}
+
+.ic-connection:before {
+  content: "\e91b";
+}
+
+.ic-book:before {
+  content: "\e91f";
+}
+
+.ic-file-text:before {
+  content: "\e922";
+}
+
+.ic-profile:before {
+  content: "\e923";
+}
+
+.ic-file-music:before {
+  content: "\e928";
+}
+
+.ic-file-play:before {
+  content: "\e929";
+}
+
+.ic-file-video:before {
+  content: "\e92a";
+}
+
+.ic-file-zip:before {
+  content: "\e92b";
+}
+
+.ic-copy:before {
+  content: "\e92c";
+}
+
+.ic-paste:before {
+  content: "\e92d";
+}
+
+.ic-folder:before {
+  content: "\e92f";
+}
+
+.ic-folder-open:before {
+  content: "\e930";
+}
+
+.ic-price-tag:before {
+  content: "\e935";
+}
+
+.ic-price-tags:before {
+  content: "\e936";
+}
+
+.ic-ticket:before {
+  content: "\e939";
+}
+
+.ic-cart:before {
+  content: "\e93a";
+}
+
+.ic-credit-card:before {
+  content: "\e93f";
+}
+
+.ic-calculator:before {
+  content: "\e940";
+}
+
+.ic-phone:before {
+  content: "\e942";
+}
+
+.ic-address-book:before {
+  content: "\e944";
+}
+
+.ic-envelop:before {
+  content: "\e945";
+}
+
+.ic-pushpin:before {
+  content: "\e946";
+}
+
+.ic-alarm:before {
+  content: "\e950";
+}
+
+.ic-bell:before {
+  content: "\e951";
+}
+
+.ic-stopwatch:before {
+  content: "\e952";
+}
+
+.ic-calendar:before {
+  content: "\e953";
+}
+
+.ic-keyboard:before {
+  content: "\e955";
+}
+
+.ic-display:before {
+  content: "\e956";
+}
+
+.ic-mobile2:before {
+  content: "\e959";
+}
+
+.ic-box-add:before {
+  content: "\e95e";
+}
+
+.ic-box-remove:before {
+  content: "\e95f";
+}
+
+.ic-download:before {
+  content: "\e960";
+}
+
+.ic-upload:before {
+  content: "\e961";
+}
+
+.ic-floppy-disk:before {
+  content: "\e962";
+}
+
+.ic-undo2:before {
+  content: "\e967";
+}
+
+.ic-redo2:before {
+  content: "\e968";
+}
+
+.ic-bubble:before {
+  content: "\e96b";
+}
+
+.ic-user-plus:before {
+  content: "\e973";
+}
+
+.ic-user-minus:before {
+  content: "\e974";
+}
+
+.ic-user-check:before {
+  content: "\e975";
+}
+
+.ic-user-tie:before {
+  content: "\e976";
+}
+
+.ic-spinner2:before {
+  content: "\e97b";
+}
+
+.ic-search:before {
+  content: "\e986";
+}
+
+.ic-key:before {
+  content: "\e98d";
+}
+
+.ic-cogs:before {
+  content: "\e995";
+}
+
+.ic-gift:before {
+  content: "\e99f";
+}
+
+.ic-glass:before {
+  content: "\e9a0";
+}
+
+.ic-spoon-knife:before {
+  content: "\e9a3";
+}
+
+.ic-bin:before {
+  content: "\e9ac";
+}
+
+.ic-airplane:before {
+  content: "\e9af";
+}
+
+.ic-truck:before {
+  content: "\e9b0";
+}
+
+.ic-switch:before {
+  content: "\e9b6";
+}
+
+.ic-clipboard:before {
+  content: "\e9b8";
+}
+
+.ic-list:before {
+  content: "\e9ba";
+}
+
+.ic-download3:before {
+  content: "\e9c7";
+}
+
+.ic-upload3:before {
+  content: "\e9c8";
+}
+
+.ic-star-empty:before {
+  content: "\e9d7";
+}
+
+.ic-heart:before {
+  content: "\e9da";
+}
+
+.ic-warning:before {
+  content: "\ea07";
+}
+
+.ic-plus:before {
+  content: "\ea0a";
+}
+
+.ic-minus:before {
+  content: "\ea0b";
+}
+
+.ic-blocked:before {
+  content: "\ea0e";
+}
+
+.ic-cross:before {
+  content: "\ea0f";
+}
+
+.ic-checkmark:before {
+  content: "\ea10";
+}
+
+.ic-checkmark2:before {
+  content: "\ea11";
+}
+
+.ic-enter:before {
+  content: "\ea13";
+}
+
+.ic-exit:before {
+  content: "\ea14";
+}
+
+.ic-play2:before {
+  content: "\ea15";
+}
+
+.ic-pause:before {
+  content: "\ea16";
+}
+
+.ic-stop:before {
+  content: "\ea17";
+}
+
+.ic-previous:before {
+  content: "\ea18";
+}
+
+.ic-next:before {
+  content: "\ea19";
+}
+
+.ic-backward:before {
+  content: "\ea1a";
+}
+
+.ic-forward2:before {
+  content: "\ea1b";
+}
+
+.ic-sort-alpha-asc:before {
+  content: "\ea48";
+}
+
+.ic-sort-alpha-desc:before {
+  content: "\ea49";
+}
+
+.ic-sort-numeric-asc:before {
+  content: "\ea4a";
+}
+
+.ic-sort-numberic-desc:before {
+  content: "\ea4b";
+}
+
+.ic-sort-amount-asc:before {
+  content: "\ea4c";
+}
+
+.ic-sort-amount-desc:before {
+  content: "\ea4d";
+}
+
+.ic-ungroup:before {
+  content: "\ea59";
+}
+
+.ic-table2:before {
+  content: "\ea71";
+}
+
+.ic-mail2:before {
+  content: "\ea84";
+}
+
+.ic-mail4:before {
+  content: "\ea86";
+}
+
+.ic-instagram:before {
+  content: "\ea92";
+}
+
+.ic-telegram:before {
+  content: "\ea95";
+}
+
+.ic-twitter:before {
+  content: "\ea96";
+}
+
+body {
+  direction: rtl;
+  font-size: 14px;
+  font-family: nassim;
+  color: #000;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  direction: rtl;
+}
+
+.preview-word a {
+  color: #520;
+  text-decoration: none;
+}
+
+.preview-word a:hover {
+  color: #730;
+}
+
+.preview-word a:visited {
+  color: #520;
+}
+
+.preview-word a:visited:hover {
+  color: #730;
+}
+
+.tooltipster-word a {
+  color: #f80;
+  text-decoration: none;
+}
+
+.tooltipster-word a:hover {
+  color: #fa0;
+}
+
+.tooltipster-word a:visited {
+  color: #f80;
+}
+
+.tooltipster-word a:visited:hover {
+  color: #fa0;
+}
+
+.productCover {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 250px;
+  border: 1px solid #ddd;
+  background-color: rgba(240, 238, 238, 0.5);
+  transition: all 0.2s;
+  text-align: center;
+  color: #666;
+  margin: 4px;
+  box-shadow: 3px 3px 4px #555;
+}
+
+.productCover:hover {
+  box-shadow: 0px 0px 10px #555;
+  transition: all 0.2s;
+}
+
+.titleProducts {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  right: 0px;
+  margin: 8px;
+  padding: 4px 8px;
+}
+
+.briefProducts {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  padding: 4px 8px;
+  border: none;
+  margin: 8px;
+}
+
+.proceedCover {
+  width: 120px;
+  padding: 4px 8px;
+  border: none;
+  margin: 8px;
+  border-bottom: 2px solid #cbc8c8;
+  transition: all 0.2s;
+  background-color: #f0eeee;
+  cursor: pointer;
+  color: #222;
+}
+
+.proceedCover:hover {
+  transition: all 0.2s;
+  background-color: #58c7ea;
+  color: #fff;
+  border-bottom: 2px solid #3ac4e8;
+}
+
+.proceedCover span:before {
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.cart-price {
+  text-align: start;
+  color: #000;
+}
+
+.btn-deactive {
+  margin: 7px;
+  border: none;
+}
+
+.addToCard,
+.removeFromCard,
+.btn-blue {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  bottom: 8px;
+  left: 0px;
+  right: 0px;
+  padding: 4px 8px;
+  border: none;
+  margin: 8px;
+  border-bottom: 2px solid #cbc8c8;
+  transition: all 0.2s;
+  background-color: rgba(240, 238, 238, 0.5);
+  cursor: pointer;
+  color: #222;
+}
+
+.addToCard:hover,
+.removeFromCard:hover,
+.btn-blue:hover {
+  transition: all 0.2s;
+  background-color: #58c7ea;
+  color: #fff;
+  border-bottom: 2px solid #3ac4e8;
+}
+
+.addToCard span:before,
+.removeFromCard span:before,
+.btn-blue span:before {
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.addToCardmat,
+.removeFromCardmat {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  bottom: 8px;
+  left: 0px;
+  right: 0px;
+  padding: 4px 8px;
+  border: none;
+  margin: 8px;
+  border-bottom: 2px solid #cbc8c8;
+  transition: all 0.2s;
+  background-color: rgba(240, 238, 238, 0.5);
+  cursor: pointer;
+  color: #222;
+}
+
+.addToCardmat:hover,
+.removeFromCardmat:hover {
+  transition: all 0.2s;
+  background-color: #58c7ea;
+  color: #fff;
+  border-bottom: 2px solid #3ac4e8;
+}
+
+.addToCardmat span:before,
+.removeFromCardmat span:before {
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.marginbot {
+  bottom: 2px;
+}
+
+.productName {
+  color: #666;
+  display: block;
+}
+
+.price {
+  color: #f18a36;
+  font-family: nassim;
+  font-size: 120%;
+}
+
+.thumbWrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.thumbWrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.thumbWrapperhome {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.thumb {
+  margin-top: 20px;
+  width: 128px;
+}
+
+#header {
+  position: fixed;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(128, 212, 247, 0.5);
+}
+
+#content {
+  position: absolute;
+  top: 20%;
+  bottom: 10%;
+  right: 10%;
+  left: 10%;
+}
+
+#contentmat {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 10%;
+  left: 10%;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.block {
+  position: relative;
+  top: 10px;
+  display: block;
+}
+
+.top {
+  margin-top: 10%;
+}
+
+.clear {
+  clear: both;
+}
+
+.dn {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.play {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+.diag{
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+.tdiag{
+  font-size: 15px;
+  margin-right: 45px;
+}
+.social{
+  padding: 10%;
+  display: flex;
+}
+.social input[type=text]{
+  width: 100%;
+  padding: 10px;
+  color: #ef5a5a;
+}
+.social input[type=email]{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  color: #ef5a5a;
+}
+.social textarea{
+  width: 100%;
+  padding: 10px;
+  color: #ef5a5a;
+}
+.social button{
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background: #fff;
+  color: #ef5a5a;
+  transition: .2s;
+}
+.social button:hover{
+  background: #031b52;
+  color: #fff;
+}
+.social form{
+  opacity: 0.9;
+  transition: .2s;
+}
+.social form:hover{
+  opacity: 1;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="asset/material/materialize.css"  media="screen,projection"/>
+
+  <link rel="stylesheet" href="asset/style/base.css">
+  <script type="text/javascript" src="asset/js/common.js"></script>
+  <script type="text/javascript" src="asset/js/jquery-1.11.3.min.js"></script>
+  <title>معرفی ما</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper" style="background-color: #031b51">
+      <span class="brand-logo" style="margin-right: 82%"><h1 style="margin-top: 3px; font-size: 30px"> برنامه نویسان فنی و حرفه ای</h1></span>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <span class="brand-logo" style="margin-right: 82%"><h1 style="margin-top: 3px; font-size: 30px"> برنامه نویسان فنی و حرفه ای</h1></span>
+        <li><a href=""><i class="icon tiny ic-enter" style="display: inline; vertical-align: middle">&nbsp;ورود</i></a></li>
+        <li><a href="index.html"><i class="icon tiny ic-home" style="display: inline; vertical-align: middle">&nbsp;خانه</i></a></li>
+        <li><a href="products.html"><i class="icon tiny ic-price-tags" style="display: inline; vertical-align: middle">&nbsp;محصولات ما</i></a></li>
+        <li><a href="contactus.html"><i class="icon tiny ic-user-tie" style="display: inline; vertical-align: middle">&nbsp;تماس با ما</i></a></li>
+        <li><a href="introduction.html"><i class="icon tiny ic-clipboard" style="display: inline; vertical-align: middle">&nbsp;معرفی ما</i></a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<video autoplay loop id="myVideo">
+  <source src="video/Intro.mp4" type="video/mp4">
+</video>
+
+<div class="play">
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+</body>
+<script>
+
+  var video = document.getElementById("myVideo");
+
+  var btn = document.getElementById("myBtn");
+
+  function myFunction() {
+    if (video.paused) {
+      video.play();
+      btn.innerHTML = "Pause";
+    } else {
+      video.pause();
+      btn.innerHTML = "Play";
+    }
+  }
+</script>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="asset/material/materialize.css"  media="screen,projection"/>
+
+  <link rel="stylesheet" href="asset/style/base.css">
+  <script type="text/javascript" src="asset/js/common.js"></script>
+  <script type="text/javascript" src="asset/js/jquery-1.11.3.min.js"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <title> برنامه نویسان فنی و حرفه ای</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<div class="navbar-fixed">
+<nav>
+  <div class="nav-wrapper" style="background-color: #031b51">
+    <span class="brand-logo" style="margin-right: 82%"><h1 style="margin-top: 3px; font-size: 30px"> برنامه نویسان فنی و حرفه ای</h1></span>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+    <span class="brand-logo" style="margin-right: 82%"><h1 style="margin-top: 3px; font-size: 30px"> برنامه نویسان فنی و حرفه ای</h1></span>
+      <li><a class="modal-trigger" href="#modal1"><i class="icon tiny ic-enter" style="display: inline; vertical-align: middle">&nbsp;ورود</i></a></li>
+      <li><a class="modal-trigger" href="#modal1"><i class="icon tiny ic-profile" style="display: inline; vertical-align: middle">&nbsp;عضویت</i></a></li>
+      <li><a href="products.html"><i class="icon tiny ic-price-tags" style="display: inline; vertical-align: middle">&nbsp;محصولات ما</i></a></li>
+      <li><a href="contactus.html"><i class="icon tiny ic-user-tie" style="display: inline; vertical-align: middle">&nbsp;تماس با ما</i></a></li>
+      <li><a href="introduction.html"><i class="icon tiny ic-clipboard" style="display: inline; vertical-align: middle">&nbsp;معرفی ما</i></a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>خطا</h4>
+    <p>با عرض پوزش این بخش در حال توسعه می باشد و برای عموم در دسترس نیست.</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">باشه</a>
+  </div>
+</div>
+
+
+
+<ul class="sidenav" id="mobile-demo" style="display: block">
+  <li style="display: block"><a href="/login">ورود</a></li>
+  <li style="display: block"><a class="modal-trigger" href="#modal1">عضویت</a></li>
+  <li style="display: block"><a href="#products">محصولات ما</a></li>
+  <li style="display: block"><a href="#contactus">تماس با ما</a></li>
+  <li style="display: block"><a href="#introduction">معرفی ما</a></li>
+</ul>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="image/indeximg.jpg"></div>
+</div>
+
+
+<div class="section" style="background-color: #2b3f6e; height: 600px; color: #ffffff">
+  <div class="row container">
+    <h2 class="header">معرفی ما</h2>
+    <p class="grey-text text-darken-3 lighten-3">
+
+    <div style="position: relative; width: 50%; margin-right: 0">
+
+    <div><span style="font-size: 24px;">فروش سال های</span></div>
+    <div class="diag" style="background-color: #98abc5"><span class="tdiag">1397</span></div>
+    <div class="diag" style="background-color: #8a89a6"><span class="tdiag">1396</span></div>
+    <div class="diag" style="background-color: #7b6888"><span class="tdiag">1395</span></div>
+    <div class="diag" style="background-color: #6b486b"><span class="tdiag">1394</span></div>
+    <div class="diag" style="background-color: #a05d56"><span class="tdiag">1393</span></div>
+
+  </div>
+
+
+    <div id="my_dataviz" style="position: relative; margin-right: 50%; margin-top: -25%; width: 50%"></div>
+    </p>
+  </div>
+</div>
+
+
+<div class="parallax-container" style="height: 500px">
+  <div class="parallax"></div>
+  <h2 style="margin-right: 50px"> نمونه محصولات ما</h2>
+<div style="text-align: center">
+
+
+  <div class="card" style="width: 13%; height: 290px; display: inline-block; overflow: hidden; margin: 10px; background-color: rgba(255, 255, 255 ,0.5)">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src=" image/productimg.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">محصول 1<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"> محصول 1<i class="material-icons right">close</i></span>
+      <p>توضیحات محصول 1</p>
+    </div>
+  </div>
+  <div class="card" style="width: 13%; height: 290px; display: inline-block; overflow: hidden; margin: 10px; background-color: rgba(255, 255, 255 ,0.5)">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src=" image/productimg.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">محصول 2<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">محصول 2<i class="material-icons right">close</i></span>
+      <p>توضیحات محصول 2</p>
+    </div>
+  </div>
+  <div class="card" style="width: 13%; height: 290px; display: inline-block; overflow: hidden; margin: 10px; background-color: rgba(255, 255, 255 ,0.5)">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src=" image/productimg.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">محصول 3<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">محصول 3<i class="material-icons right">close</i></span>
+      <p>توضیحات محصول 3</p>
+    </div>
+  </div>
+  <div class="card" style="width: 13%; height: 290px; display: inline-block; overflow: hidden; margin: 10px; background-color: rgba(255, 255, 255 ,0.5)">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src=" image/productimg.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">محصول 4<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">محصول 4<i class="material-icons right">close</i></span>
+      <p>توضیحات محصول 4</p>
+    </div>
+  </div>
+  <div class="card" style="width: 13%; height: 290px; display: inline-block; overflow: hidden; margin: 10px; background-color: rgba(255, 255, 255 ,0.5)">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src=" image/productimg.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">محصول 5<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">محصول 5<i class="material-icons right">close</i></span>
+      <p>توضیحات محصول 5</p>
+    </div>
+  </div>
+
+
+
+</div>
+</div>
+
+<div class="section" style="background-color: #2f3472; color: #ffffff">
+  <div class="row container">
+    <div style="position: absolute; left: 10%">
+    <span>تمامی حقوق متعلق به وب سایت می باشد</span><br>
+    <span>طراحی و توسعه توسط حسین عیدی</span>
+    </div>
+    <div style="position: absolute; left: 25%; width: 120px; height: 90px">
+    </div>
+
+
+    <span><i class="icon ic-phone"></i> تلفن تماس: 06100456 </span><br>
+    <span><i class="icon ic-truck"></i> آدرس: خیابان</span>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="asset/js/materialize.min.js"></script>
+<script src="https://d3js.org/d3.v4.js"></script>
+</body>
+<script>
+
+  function scrollToElement(target, speed){
+    $('html, body').animate({
+      scrollTop: parseInt($(target).offset().top - 50)
+    }, speed);
+  }
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+
+  $(document).ready(function() {
+    $('.modal').modal();
+  });
+
+  var width = 450
+  height = 450
+  margin = 40
+
+  var radius = Math.min(width, height) / 2 - margin
+
+  var svg = d3.select("#my_dataviz")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+  var data = {a: 9, b: 20, c:30, d:8, e:12}
+
+  // set the color scale
+  var color = d3.scaleOrdinal()
+    .domain(data)
+    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56"])
+
+  // Compute the position of each group on the pie:
+  var pie = d3.pie()
+    .value(function(d) {return d.value; })
+  var data_ready = pie(d3.entries(data))
+
+  // Build the pie chart: Basically, each part of the pie is a path that we build using the arc function.
+  svg
+    .selectAll('whatever')
+    .data(data_ready)
+    .enter()
+    .append('path')
+    .attr('d', d3.arc()
+      .innerRadius(0)
+      .outerRadius(radius)
+  )
+    .attr('fill', function(d){ return(color(d.data.key)) })
+    .attr("stroke", "black")
+    .style("stroke-width", "2px")
+    .style("opacity", 0.7)
+</script>
+</html>
